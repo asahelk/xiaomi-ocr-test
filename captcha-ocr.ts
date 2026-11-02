@@ -17,6 +17,8 @@ const PROMPT =
     "Ignore any lines, borders or noise. " +
     "Output ONLY the four characters, with no explanation. Analyze deeply and carefully pixel by pixel. Your answer always must be four characters. If you are not sure about any character, output the most likely one.";
 
+console.log(PROMPT)
+
 // No color-based letter masking: this captcha family draws letters in black and
 // yellow too — the same colors as the strike line and unlike the background — so
 // any color threshold deletes real characters. The model ignores the strike line
